@@ -1,5 +1,5 @@
 dict={
-    "brand" : "xyz",
+    "brand" : "ninja",
     "model" : "hgsh",
     "price" : "200k"
 }
