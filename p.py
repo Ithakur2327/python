@@ -1,6 +1,15 @@
-year = int(input("Enter a year: "))
-if year%4 ==0 & year%100 !=0 & year% 400 ==0:
-    print(year, "leap year")
+number=int(input("Enter number:"))
+
+digits= len(str(number))
+s=0
+while number !=0:
+    n= number%10
+    s += n ** digits
+    number //=10
+
+if(s==number):
+    print("The number is a special number")
 else:
-    print(year, "not a leap year")
+    print("The number is not a special number")
+    
 
